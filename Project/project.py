@@ -12,3 +12,6 @@ class Admin(School):
 
 class Classrooms(School):
     pass
+
+# dua
+https://github.com/DuaaDaniya/first-repo/edit/main/README.md
