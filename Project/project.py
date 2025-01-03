@@ -36,7 +36,7 @@ class Teacher(School):
         self.teacher_salary = teacher_salary
 
     def getteacher(self):
-        return f" Name: {self.teacher_name}  Father Name: {self.teacher_f_name} Phone Number: {self.teacher_phone_number}"   
+        return f" Name = {self.teacher_name}, Father Name = {self.teacher_f_name}, Phone Number = {self.teacher_phone_number}, salary = {self.teacher_salary}"   
 
 class Admin(School):
     def __init__(self, FDO, vice_principal, cashier, principal, admin):
@@ -49,7 +49,13 @@ class Admin(School):
         return f"FDO = {self.FDO},vice principal = {self.vice_principal},cashier = {self.cashier},principal = {self.principal},admin = {self.admin},"
 
 class Classrooms(School):
-    pass
+    def __init__(self, class_id, class_name, class_time):
+        self.class_id =nclass_id
+        self.class_name = class_name
+        self.class_time = class_time
+
+    def getClassrooms(self):
+        return f"id = {self.class_id}, name = {self.class_name}, time = {self.class_time}"    
     
 class Event(School):
     pass
