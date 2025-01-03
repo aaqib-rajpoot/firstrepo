@@ -49,7 +49,13 @@ class Admin(School):
         return f"FDO = {self.FDO},vice principal = {self.vice_principal},cashier = {self.cashier},principal = {self.principal},admin = {self.admin},"
 
 class Classrooms(School):
-    pass
+    def__init__(self, class_name, class_teacher, class_room, num_of_students):
+      self.class_name = class_name
+      self.class_teacher = class_teacher
+      self.class_room = class_room
+      self.num_of_students = num_of_students
+    def getclassroom(self):
+        return f"class_name = {self.class_name}, class_teacher ={self.class_teacher}, class_room ={self.class_room}, num_of_students ={self.num_of_students}"        
     
 class Event(School):
     def__ init__(self, name,date,manager,time,menu, decoration , required_stock, participates, guests ,location,description):
