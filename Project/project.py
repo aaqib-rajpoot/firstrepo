@@ -66,7 +66,23 @@ class Event(School):
         self.description = description
 
 class Exams(School):
-    pass
+    def __init__(self,
+        name,
+        f_name,
+        subject,
+        exam_date,
+        exam_marks,
+        exam_result
+        ):
+        self.name = name
+        self.f_name = f_name
+        self.subject = subject
+        self.exam_date = exam_date
+        self.exam_marks = exam_marks
+        self.exam_result = exam_result
+
+    def getExams(self):
+        return f"name = {self.name}, father name = {self.f_name}, subject = {self.subject}, exam date = {self.exam_date}, exam marks = {self.exam_marks}, exam result = {self.exam_result}"    
   
 class Stock(School):
     def __init__(self, name, quantity, price_per_item, category, supplier):
