@@ -65,6 +65,9 @@ class Event(School):
         self.location = location
         self.description = description
 
+    def getEvent(self):
+        return f"name = {self.name}, date = {self.date}, manager = {self.manager}, time = {self.time}, menu = {self.menu}, decoration = {self.decoration}, required stock = {self.required_stock}, participates = {self.participates}, guests = {self.guests}, location = {self.location}, description = {self.description}"    
+
 class Exams(School):
     pass
   
