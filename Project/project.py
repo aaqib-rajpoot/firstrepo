@@ -65,6 +65,22 @@ class Event(School):
         self.location = location
         self.description = description
 
+class Events(School):
+    def __init__(self,name,date,location):
+        self.name = name
+        self.date = date
+        self.location = location
+
+    def get_event(self):
+        return f"name:{self.name},date:{self.date},location:{self.location}"
+
+
+Event1 = Event ("Annaul function",2025-4-10,"School Auditorium")
+
+# Displaying details of all events
+
+print(Event1.get_event())
+
 class Exams(School):
     pass
   
