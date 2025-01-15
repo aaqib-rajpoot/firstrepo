@@ -49,7 +49,16 @@ class Admin(School):
         return f"FDO = {self.FDO},vice principal = {self.vice_principal},cashier = {self.cashier},principal = {self.principal},admin = {self.admin},"
 
 class Classrooms(School):
-    pass
+    
+  def __init__(self, number, capacity,students,materials,schedule,assignments,grades,discussion):
+    self.number = number
+    self.capacity = capacity
+    self.students = students
+    self.materials = materials
+    self.schedule = schedule
+    self.assignments = assignments
+    self.grades = grades
+    self.discussions = discussions
     
 class Event(School):
     def__ init__(self, name,date,manager,time,menu, decoration , required_stock, participates, guests ,location,description):
