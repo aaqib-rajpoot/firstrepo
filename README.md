@@ -14,6 +14,9 @@ https://github.com/noorkhanswati21/pythonproject/
 # Zeeshan Ali Repo Link..
 https://github.com/zeeshan121311/firstrepo
 
+# Zeeshan Ali Project Link..
+https://github.com/zeeshan121311/project
+
 # Umer Farooq
 https://github.com/S-Z-KING/first-repo.git
 
