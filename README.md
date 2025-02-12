@@ -31,3 +31,7 @@ https://github.com/mehak569/MEHAK-SHEIKH
 
 # Second Account
 
+
+# assignment
+https://github.com/hina-rani/hina-assignment1
+
