@@ -1,6 +1,9 @@
 # firstrepo
 Artificial Intelligence batch 2 repositories
 
+# Syed umar farooq
+https://github.com/S-U-King/project.git
+
 # hina's repo file
 https://github.com/asadali0999/firstrepo
 
