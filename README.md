@@ -7,6 +7,9 @@ https://github.com/S-U-King/project.git
 # hina's repo file
 https://github.com/asadali0999/firstrepo
 
+# hina project
+https://github.com/hina-rani/hina-assignment1
+
 # Tahira 
 https://github.com/asadali0999/firstrepo
 
@@ -30,7 +33,4 @@ https://github.com/Abdullah-Iqbal6/firstrep
 
 # Mehak Sheikh
 https://github.com/mehak569/MEHAK-SHEIKH
-
-
-# Second Account
 
